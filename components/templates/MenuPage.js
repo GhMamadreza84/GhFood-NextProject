@@ -2,10 +2,13 @@ import styles from "./MenuPage.module.css";
 const MenuPage = ({ data }) => {
   console.log(data);
   return (
-    <div>
-      {data.map((item) => (
-        <h4>{item.name}</h4>
-      ))}
+    <div className={styles.container}>
+      <h2>Menu</h2>
+      <div className={styles.subContainer}>
+        {data.map((food) => (
+          <p key={food.id}>{food.name}</p>
+        ))}
+      </div>
     </div>
   );
 };
