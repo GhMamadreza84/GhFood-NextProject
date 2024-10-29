@@ -1,5 +1,6 @@
 import Attributes from "../modules/Attributes";
 import Banner from "../modules/Banner";
+import Companies from "../modules/Companies";
 import Definition from "../modules/Definition";
 import styles from "./HomePage.module.css";
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Banner />
       <Attributes />
       <Definition />
+      <Companies />
     </div>
   );
 };
