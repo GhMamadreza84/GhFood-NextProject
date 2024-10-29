@@ -2,6 +2,7 @@ import Attributes from "../modules/Attributes";
 import Banner from "../modules/Banner";
 import Companies from "../modules/Companies";
 import Definition from "../modules/Definition";
+import Instruction from "../modules/Instruction";
 import styles from "./HomePage.module.css";
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Attributes />
       <Definition />
       <Companies />
+      <Instruction />
     </div>
   );
 };
