@@ -7,7 +7,7 @@ const MenuPage = ({ data }) => {
       <h2>Menu</h2>
       <div className={styles.subContainer}>
         {data.map((food) => (
-          <Card key={food.id} />
+          <Card key={food.id} {...food} />
         ))}
       </div>
     </div>
