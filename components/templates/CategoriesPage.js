@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 const CategoriesPage = () => {
   const router = useRouter();
   const [query, setQuery] = useState({ difficulty: "", time: "" });
-  const changeHandler = (e) => {
+  const changeHandler = (e) => { 
     setQuery({ ...query, [e.target.name]: e.target.value });
   };
   const searchHandler = () => {
