@@ -3,7 +3,7 @@ import Location from "../icons/Location";
 import Dollar from "../icons/Dollar";
 const DetailsPage = ({
   id,
-  anme,
+  name,
   price,
   discount,
   introduction,

@@ -2,7 +2,7 @@ import CategoriesPage from "../../components/templates/CategoriesPage";
 
 function Categories({ data }) {
   console.log(data);
-  return <CategoriesPage />;
+  return <CategoriesPage data={data} />;
 }
 
 export default Categories;
