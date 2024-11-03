@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import styles from "./CategoriesPage.module.css";
 import { useRouter } from "next/router";
 import Card from "../modules/Card";
+import styles from "./CategoriesPage.module.css";
 const CategoriesPage = ({ data }) => {
   const router = useRouter();
   const [query, setQuery] = useState({ difficulty: "", time: "" });
