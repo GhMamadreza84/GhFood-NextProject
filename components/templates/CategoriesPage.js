@@ -39,6 +39,9 @@ const CategoriesPage = ({ data }) => {
           <button onClick={searchHandler}>Search</button>
         </div>
         <div className={styles.cards}>
+          {!data.length ? (
+            <img src="/images/search.png" alt="Category" />
+          ) : null}
           {data.map((food) => (
             <Card key={food.id} {...food} />
           ))}
